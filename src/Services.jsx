@@ -1,7 +1,27 @@
 /** @format */
 
 import React from "react";
+// images start
+import about01 from "./components/assets/images/about/01.jpg";
+import about02 from "./components/assets/images/about/02.jpg";
+import about03 from "./components/assets/images/about/03.jpg";
+import about04 from "./components/assets/images/about/04.jpg";
+import portfolio01 from "./components/assets/images/portfolio/01.jpg";
+import portfolio02 from "./components/assets/images/portfolio/02.jpg";
+import portfolio03 from "./components/assets/images/portfolio/03.jpg";
+import portfolio04 from "./components/assets/images/portfolio/04.jpg";
+import portfolio05 from "./components/assets/images/portfolio/05.jpg";
+import portfolio06 from "./components/assets/images/portfolio/06.jpg";
+import portfolio07 from "./components/assets/images/portfolio/07.jpg";
+import light01 from "./components/assets/images/clients/light/01.svg";
+import light02 from "./components/assets/images/clients/light/02.svg";
+import light03 from "./components/assets/images/clients/light/03.svg";
+import light04 from "./components/assets/images/clients/light/04.svg";
+import light05 from "./components/assets/images/clients/light/05.svg";
+import light06 from "./components/assets/images/clients/light/06.svg";
+import light07 from "./components/assets/images/clients/light/07.svg";
 
+// images end
 function Services() {
   return (
     <>
@@ -14,7 +34,7 @@ Inner intro START --> */}
             <div class="row g-0 d-flex justify-content-end">
               {/* <!--  Left main images --> */}
               <div class="col-6 mt-5 d-none d-md-block">
-                <img class="rounded" src="assets/images/about/03.jpg" alt="" />
+                <img class="rounded" src={about03} alt="" />
               </div>
               {/* <!--  Right image decoration --> */}
               <div class="col-2 mt-auto mb-8 d-none d-md-block">
@@ -257,11 +277,7 @@ Inner intro START --> */}
                     />
                   </svg>
                 </figure>
-                <img
-                  class="rounded ms-n4"
-                  src="assets/images/about/04.jpg"
-                  alt=""
-                />
+                <img class="rounded ms-n4" src={about04} alt="" />
               </div>
             </div>
             {/* <!--  Text contents --> */}
@@ -958,11 +974,7 @@ Testimonials START --> */}
                     We start with Research also to image Seas Void Great day sea
                     don't creature land you're morning doesn't
                   </p>
-                  <img
-                    class="rounded"
-                    src="assets/images/about/01.jpg"
-                    alt=""
-                  />
+                  <img class="rounded" src={about01} alt="" />
                 </div>
               </div>
               {/* <!--  Step item --> */}
@@ -978,11 +990,7 @@ Testimonials START --> */}
                     In this step our Them Subdue you life created day given
                     light gathering Days very air Fruitful form he him{" "}
                   </p>
-                  <img
-                    class="rounded"
-                    src="assets/images/about/02.jpg"
-                    alt=""
-                  />
+                  <img class="rounded" src={about02} alt="" />
                 </div>
               </div>
               {/* <!--  Step item --> */}
@@ -998,11 +1006,7 @@ Testimonials START --> */}
                     Final step of success firmament of also it great have set
                     behold land third he great years midst stars green
                   </p>
-                  <img
-                    class="rounded"
-                    src="assets/images/about/03.jpg"
-                    alt=""
-                  />
+                  <img class="rounded" src={about03} alt="" />
                 </div>
               </div>
             </div>
@@ -1165,18 +1169,11 @@ Portfolio START --> */}
                       <a href="#" class="card card-metro">
                         {/* <!--  Card Image --> */}
                         <div class="card-image">
-                          <img
-                            src="assets/images/portfolio/01.jpg"
-                            alt="card image"
-                          />
+                          <img src={portfolio01} alt="card image" />
                         </div>
                         {/* <!--  Card Overlay --> */}
                         <div class="card-img-overlay d-flex flex-column">
-                          <img
-                            class="w-40"
-                            src="assets/images/clients/light/01.svg"
-                            alt=""
-                          />
+                          <img class="w-40" src={light01} alt="" />
                           <div class="mt-auto card-text">
                             <h5 class="text-white">
                               The missing link in e-Mobility
@@ -1196,18 +1193,11 @@ Portfolio START --> */}
                       <a href="#" class="card card-metro">
                         {/* <!--  Card Image --> */}
                         <div class="card-image">
-                          <img
-                            src="assets/images/portfolio/02.jpg"
-                            alt="card image"
-                          />
+                          <img src={portfolio02} alt="card image" />
                         </div>
                         {/* <!--  Card Overlay --> */}
                         <div class="card-img-overlay d-flex flex-column">
-                          <img
-                            class="w-40"
-                            src="assets/images/clients/light/02.svg"
-                            alt=""
-                          />
+                          <img class="w-40" src={light02} alt="" />
                           <div class="mt-auto card-text">
                             <h5 class="text-white">Trumer brewed happiness</h5>
                             <p class="small text-white mb-0 text-truncate">
@@ -1224,18 +1214,11 @@ Portfolio START --> */}
                       <a href="#" class="card card-metro">
                         {/* <!--  Card Image --> */}
                         <div class="card-image">
-                          <img
-                            src="assets/images/portfolio/03.jpg"
-                            alt="card image"
-                          />
+                          <img src={portfolio03} alt="card image" />
                         </div>
                         {/* <!--  Card Overlay --> */}
                         <div class="card-img-overlay d-flex flex-column">
-                          <img
-                            class="w-40"
-                            src="assets/images/clients/light/03.svg"
-                            alt=""
-                          />
+                          <img class="w-40" src={light03} alt="" />
                           <div class="mt-auto card-text">
                             <h5 class="text-white">Enticing like the ocean</h5>
                             <p class="small text-white mb-0 text-truncate">
@@ -1253,18 +1236,11 @@ Portfolio START --> */}
                       <a href="#" class="card card-metro">
                         {/* <!--  Card Image --> */}
                         <div class="card-image">
-                          <img
-                            src="assets/images/portfolio/04.jpg"
-                            alt="card image"
-                          />
+                          <img src={portfolio04} alt="card image" />
                         </div>
                         {/* <!--  Card Overlay --> */}
                         <div class="card-img-overlay d-flex flex-column">
-                          <img
-                            class="w-40"
-                            src="assets/images/clients/light/04.svg"
-                            alt=""
-                          />
+                          <img class="w-40" src={light04} alt="" />
                           <div class="mt-auto card-text">
                             <h5 class="text-white">Pure design branding</h5>
                             <p class="small text-white mb-0 text-truncate">
@@ -1281,18 +1257,11 @@ Portfolio START --> */}
                       <a href="#" class="card card-metro">
                         {/* <!--  Card Image --> */}
                         <div class="card-image">
-                          <img
-                            src="assets/images/portfolio/05.jpg"
-                            alt="card image"
-                          />
+                          <img src={portfolio05} alt="card image" />
                         </div>
                         {/* <!--  Card Overlay --> */}
                         <div class="card-img-overlay d-flex flex-column">
-                          <img
-                            class="w-40"
-                            src="assets/images/clients/light/05.svg"
-                            alt=""
-                          />
+                          <img class="w-40" src={light05} alt="" />
                           <div class="mt-auto card-text">
                             <h5 class="text-white">The missing link</h5>
                             <p class="small text-white mb-0 text-truncate">
@@ -1309,18 +1278,11 @@ Portfolio START --> */}
                       <a href="#" class="card card-metro">
                         {/* <!--  Card Image --> */}
                         <div class="card-image">
-                          <img
-                            src="assets/images/portfolio/06.jpg"
-                            alt="card image"
-                          />
+                          <img src={portfolio06} alt="card image" />
                         </div>
                         {/* <!--  Card Overlay --> */}
                         <div class="card-img-overlay d-flex flex-column">
-                          <img
-                            class="w-40"
-                            src="assets/images/clients/light/06.svg"
-                            alt=""
-                          />
+                          <img class="w-40" src={light06} alt="" />
                           <div class="mt-auto card-text">
                             <h5 class="text-white">
                               The blossoming fashion label{" "}
@@ -1340,18 +1302,11 @@ Portfolio START --> */}
                       <a href="#" class="card card-metro">
                         {/* <!--  Card Image --> */}
                         <div class="card-image">
-                          <img
-                            src="assets/images/portfolio/07.jpg"
-                            alt="card image"
-                          />
+                          <img src={portfolio07} alt="card image" />
                         </div>
                         {/* <!--  Card Overlay --> */}
                         <div class="card-img-overlay d-flex flex-column">
-                          <img
-                            class="w-40"
-                            src="assets/images/clients/light/07.svg"
-                            alt=""
-                          />
+                          <img class="w-40" src={light07} alt="" />
                           <div class="mt-auto card-text">
                             <h5 class="text-white">
                               Life's hard in the mountains

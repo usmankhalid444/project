@@ -1,6 +1,6 @@
 {
-  "homepage": "https://usmankhalid444.github.io/project",
   "name": "codendcoffee",
+  "homepage": "https://usmankhalid444.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "sass": "^1.36.0",
+    "swiper": "^6.8.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

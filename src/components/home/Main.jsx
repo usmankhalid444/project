@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-
 // images starat
 import about06 from "../assets/images/about/06.jpg";
 import folio06 from "../assets/images/portfolio/06.jpg";
@@ -15,8 +14,8 @@ import blog02 from "../assets/images/blog/02.jpg";
 import blog03 from "../assets/images/blog/03.jpg";
 import blog04 from "../assets/images/blog/04.jpg";
 import blog05 from "../assets/images/blog/05.jpg";
-
 // images end
+
 function Main() {
   return (
     <>
@@ -24,6 +23,7 @@ function Main() {
     <!-- **************** MAIN CONTENT START **************** -->
     */}
       <main>
+        <Slider />
         {/*
       <!-- =======================
 Main Banner START-->
@@ -103,7 +103,7 @@ Main Banner START-->
               <div
                 className="h-500 h-sm-600 h-lg-800 bg-dark-overlay-4 bg-dark"
                 style={{
-                  backgroundImage: { blog03 },
+                  backgroundImage: blog05,
                   backgroundPosition: "center center",
                   backgroundSize: "cover",
                 }}
@@ -162,7 +162,7 @@ Main Banner START-->
               </div>
               {/*
             <!-- Slide 1 END -->
-            */}{" "}
+            */}
               {/*
             <!-- Slide 2 START -->
             */}
@@ -234,7 +234,7 @@ Main Banner START-->
         {/*
       <!-- =======================
 Main banner END-->
-      */}{" "}
+      */}
         {/*
       <!-- =======================
 About START -->
@@ -389,7 +389,7 @@ About START -->
                           your other innovation
                         </p>
                         <footer className="blockquote-footer">
-                          Steve Jobs @{" "}
+                          Steve Jobs @
                           <cite title="Source Title">Apple Inc</cite>
                         </footer>
                       </blockquote>
@@ -426,7 +426,7 @@ About START -->
         {/*
       <!-- =======================
 About END -->
-      */}{" "}
+      */}
         {/*
       <!-- =======================
 Services START -->
@@ -476,7 +476,7 @@ Services START -->
         {/*
       <!-- =======================
 Services END -->
-      */}{" "}
+      */}
         {/*
       <!-- =======================
 Portfolio START -->
@@ -542,7 +542,7 @@ Portfolio START -->
               </div>
               {/*
             <!-- Card item END -->
-            */}{" "}
+            */}
               {/*
             <!-- Card item START -->
             */}
@@ -584,7 +584,7 @@ Portfolio START -->
               </div>
               {/*
             <!-- Card item END -->
-            */}{" "}
+            */}
               {/*
             <!-- Card item START -->
             */}
@@ -628,7 +628,7 @@ Portfolio START -->
               </div>
               {/*
             <!-- Card item END -->
-            */}{" "}
+            */}
               {/*
             <!-- Card item START -->
             */}
@@ -670,7 +670,7 @@ Portfolio START -->
               </div>
               {/*
             <!-- Card item END -->
-            */}{" "}
+            */}
               {/*
             <!-- Card item START -->
             */}
@@ -712,7 +712,7 @@ Portfolio START -->
               </div>
               {/*
             <!-- Card item END -->
-            */}{" "}
+            */}
               {/*
             <!-- Card item START -->
             */}
@@ -761,7 +761,7 @@ Portfolio START -->
         {/*
       <!-- =======================
 Portfolio END -->
-      */}{" "}
+      */}
         {/*
       <!-- =======================
 Work Process START -->
@@ -847,7 +847,7 @@ Work Process START -->
         {/*
       <!-- =======================
 Work Process END -->
-      */}{" "}
+      */}
         {/*
       <!-- =======================
 Blog START -->
@@ -954,7 +954,7 @@ Blog START -->
                     </div>
                     {/*
                   <!-- Card item END -->
-                  */}{" "}
+                  */}
                     {/*
                   <!-- Card item START -->
                   */}
@@ -1023,7 +1023,7 @@ Blog START -->
                     </div>
                     {/*
                   <!-- Card item END -->
-                  */}{" "}
+                  */}
                     {/*
                   <!-- Card item START -->
                   */}
@@ -1091,7 +1091,7 @@ Blog START -->
                     </div>
                     {/*
                   <!-- Card item END -->
-                  */}{" "}
+                  */}
                     {/*
                   <!-- Card item START -->
                   */}
@@ -1162,7 +1162,7 @@ Blog START -->
                     </div>
                     {/*
                   <!-- Card item END -->
-                  */}{" "}
+                  */}
                     {/*
                   <!-- Card item START -->
                   */}
@@ -1244,7 +1244,7 @@ Blog START -->
         {/*
       <!-- =======================
 Blog END -->
-      */}{" "}
+      */}
         {/*
       <!-- =======================
 About Fun fact START -->

@@ -19,7 +19,7 @@ Header START -->
             {/*
           <!-- Logo START -->
           */}
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="/">
               <img className="navbar-brand-item" src={logo} alt="Logo" />
             </a>
             {/*
