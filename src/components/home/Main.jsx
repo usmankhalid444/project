@@ -15,7 +15,6 @@ import blog03 from "../assets/images/blog/03.jpg";
 import blog04 from "../assets/images/blog/04.jpg";
 import blog05 from "../assets/images/blog/05.jpg";
 // images end
-
 function Main() {
   return (
     <>
@@ -23,7 +22,7 @@ function Main() {
     <!-- **************** MAIN CONTENT START **************** -->
     */}
       <main>
-        <Slider />
+        {/* <Slider /> */}
         {/*
       <!-- =======================
 Main Banner START-->
